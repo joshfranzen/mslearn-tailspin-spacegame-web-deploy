@@ -13,7 +13,6 @@ stages:
   jobs: 
   - job: 'Build'
     displayName: 'Build job'
-    dependsOn: Build
     condition: |
       and
       (
